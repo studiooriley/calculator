@@ -10,15 +10,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 30%);
-    min-width: 300px;
+    min-width: 400px;
     min-height: 300px;
     max-width: 500px;
     max-height: 500px;
     width: 60vw;
-    height: 60vw;
-    border: 5px solid #666;
+    border: 5px solid #999;
     border-radius: 2em;
     background-color: #333;
+    padding: 2em;
 }
 
 .container > * {
@@ -33,7 +33,7 @@
 button {
     border: none;
     border-radius: .5em;
-    background-color: #666;
+    background-color: #999;
     width: 3em;
     height: 3em;
     margin: 2vw;
@@ -54,12 +54,20 @@ input {
 }
 
 h1 {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-55%);
+    width: 20vw;
+    min-width: 25vw;
+    border: 3px solid #999;
+    border-radius: .5em;
     max-width: 50vw;
     word-wrap: break-word;
     top: 15px;
-    left: 15px;
     font-size: 30px;
-    color: #fff;
+    padding: 0 1em;
+    color: #999;
 }
 
 p, h2 {
